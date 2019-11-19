@@ -8,10 +8,10 @@ class Main extends React.Component {
         <main>
           <article>
             <header>
-              <h1>Article 1</h1>
-              <h2>Article 2</h2>
+              <h2>Article 1</h2>
             </header>
             <p>
+              {this.props.greeting}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Reprehenderit odit nisi aliquam aperiam commodi esse repellat fuga
               perferendis mollitia? Odio id velit repellat laborum quos
